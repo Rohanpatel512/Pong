@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Play Pong</title>
+  </head>
+
+  <body class="game" onload="drawComponents()">
+
+    <div class="game-board">
+      <canvas id="board" width="550px" height="400px"></canvas>
+    </div>
+
+    <button type="button" onclick="startGame()" id="start-button">Start</button>
+
+    <script src="ball.js"></script>
+    <script src="playerTwo.js"></script>
+    <script src="player.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+
+</html>

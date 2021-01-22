@@ -1,0 +1,71 @@
+.home {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-container {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  position: absolute;
+  background-color: black;
+  margin-top: -30%;
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.title-container {
+  color: white;
+}
+
+#title {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -20%;
+  position: absolute;
+  font-size: 70px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+  position: absolute;
+  transition-duration: 0.4s;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  border: 1px solid white;
+  background-color: #333333;
+  width: 150px;
+  height: 60px;
+}
+
+#play-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.game-board {
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#start-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: 15%;
+  width: 100px;
+  height: 50px;
+  border: none;
+}
